@@ -1,0 +1,10 @@
+{
+  "name": "maps-demo",
+  "private": true,
+  "scripts": {
+    "setup": "npm --prefix backend ci && npm --prefix frontend ci",
+    "init": "bash scripts/init.sh",
+    "dev": "bash scripts/dev.sh",
+    "build": "npm --prefix backend run build && npm --prefix frontend run build"
+  }
+}
